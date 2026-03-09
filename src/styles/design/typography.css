@@ -1,0 +1,113 @@
+.font-family-monospace {
+  font-family: var(--font_family-monospace);
+}
+
+.font-family-sans {
+  font-family: var(--typeface-sans);
+}
+
+.font-family-serif {
+  font-family: var(--font_family-serif);
+}
+
+.font-inherit {
+  font-family: inherit;
+}
+
+.font-size-2xl {
+  font-size: var(--font_size-2xl);
+}
+
+.font-size-3xl {
+  font-size: var(--font_size-3xl);
+}
+
+.font-size-lg {
+  font-size: var(--font_size-lg);
+}
+
+.font-size-md {
+  font-size: var(--font_size-md);
+}
+
+.font-size-sm {
+  font-size: var(--font_size-sm);
+}
+
+.font-size-xl {
+  font-size: var(--font_size-xl);
+}
+
+.font-size-xs {
+  font-size: var(--font_size-xs);
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-clip {
+  overflow: clip;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-normal {
+  font-weight: normal;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-vertical-bottom {
+  vertical-align: bottom;
+}
+
+.text-vertical-middle {
+  vertical-align: middle;
+}
+
+.text-vertical-top {
+  vertical-align: top;
+}
+
+.white-space-normal {
+  white-space: normal;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.white-space-pre {
+  white-space: pre;
+}
+
+.white-space-pre-line {
+  white-space: pre-line;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}

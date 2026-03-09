@@ -1,0 +1,231 @@
+.aspect-ratio-1 {
+  aspect-ratio: 1 / 1;
+}
+
+.height-100px {
+  height: 100px;
+}
+
+.height-1000px {
+  height: 1000px;
+}
+
+.height-200px {
+  height: 200px;
+}
+
+.height-20px {
+  height: 20px;
+}
+
+.height-300px {
+  height: 300px;
+}
+
+.height-400px {
+  height: 400px;
+}
+
+.height-500px {
+  height: 500px;
+}
+
+.height-600px {
+  height: 600px;
+}
+
+.height-700px {
+  height: 700px;
+}
+
+.height-800px {
+  height: 800px;
+}
+
+.height-900px {
+  height: 900px;
+}
+
+.height-auto {
+  height: auto;
+}
+
+.height-fit {
+  height: fit-content;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.height-half {
+  height: 50%;
+}
+
+.height-max {
+  height: max-content;
+}
+
+.width-50px {
+  width: 50px;
+}
+
+.height-50px {
+  height: 50px;
+}
+
+.height-min {
+  height: min-content;
+}
+
+.height-quarter {
+  height: 25%;
+}
+
+.height-third {
+  height: 33.33%;
+}
+
+.height-two-thirds {
+  height: 66.66%;
+}
+
+.height-viewport {
+  height: 100vh;
+}
+
+.max-height-full {
+  max-height: 100%;
+}
+
+.max-width-full {
+  max-width: 100%;
+}
+
+.min-height-full {
+  min-height: 100%;
+}
+
+.min-height-300px {
+  min-height: 300px;
+}
+
+.min-height-400px {
+  min-height: 400px;
+}
+
+.min-height-500px {
+  min-height: 500px;
+}
+
+.min-width-0 {
+  min-width: 0;
+}
+
+.min-width-100px {
+  min-width: 100px;
+}
+
+.min-width-200px {
+  min-width: 200px;
+}
+
+.min-width-full {
+  min-width: 100%;
+}
+
+.min-width-half {
+  min-width: 50%;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+.width-1000px {
+  width: 1000px;
+}
+
+.width-150px {
+  width: 150px;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-20px {
+  width: 20px;
+}
+
+.width-250px {
+  width: 250px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.width-400px {
+  width: 400px;
+}
+
+.width-500px {
+  width: 500px;
+}
+
+.width-600px {
+  width: 600px;
+}
+
+.width-700px {
+  width: 700px;
+}
+
+.width-800px {
+  width: 800px;
+}
+
+.width-900px {
+  width: 900px;
+}
+
+.width-auto {
+  width: auto;
+}
+
+.width-fit {
+  width: fit-content;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.width-max {
+  width: max-content;
+}
+
+.width-min {
+  width: min-content;
+}
+
+.width-quarter {
+  width: 25%;
+}
+
+.width-third {
+  width: 33.33%;
+}
+
+.width-two-thirds {
+  width: 66.66%;
+}
+
+.width-viewport {
+  width: 100vw;
+}

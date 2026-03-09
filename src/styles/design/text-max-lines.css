@@ -1,0 +1,66 @@
+.text-max-lines-1,
+.text-max-lines-2,
+.text-max-lines-3,
+.text-max-lines-4,
+.text-max-lines-5,
+.text-max-lines-6,
+.text-max-lines-7,
+.text-max-lines-8,
+.text-max-lines-9,
+.text-max-lines-10 {
+  text-overflow: ellipsis;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.text-max-lines-1 {
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.text-max-lines-2 {
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.text-max-lines-3 {
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+.text-max-lines-4 {
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+
+.text-max-lines-5 {
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+}
+
+.text-max-lines-6 {
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+}
+
+.text-max-lines-7 {
+  -webkit-line-clamp: 7;
+  line-clamp: 7;
+}
+
+.text-max-lines-8 {
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+}
+
+.text-max-lines-9 {
+  -webkit-line-clamp: 9;
+  line-clamp: 9;
+}
+
+.text-max-lines-10 {
+  -webkit-line-clamp: 10;
+  line-clamp: 10;
+}

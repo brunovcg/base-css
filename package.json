@@ -1,0 +1,56 @@
+{
+  "name": "base-css",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "base-css": "./scripts/cli.js"
+  },
+  "scripts": {
+    "register:css": "node scripts/generate-css-register.js",
+    "build:css": "node scripts/build-css.js",
+    "build:ts": "tsc -p tsconfig.build.json",
+    "build": "npm run register:css && npm run build:ts && npm run build:css"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./css": {
+      "types": "./dist/css/index.d.ts",
+      "default": "./dist/css/index.js"
+    },
+    "./theme": {
+      "types": "./dist/theme/index.d.ts",
+      "default": "./dist/theme/index.js"
+    },
+    "./jsx-runtime": {
+      "types": "./dist/jsx/jsx-runtime.d.ts",
+      "default": "./dist/jsx/jsx-runtime.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./dist/jsx/jsx-dev-runtime.d.ts",
+      "default": "./dist/jsx/jsx-dev-runtime.js"
+    },
+    "./vite": {
+      "types": "./dist/vite/plugin.d.ts",
+      "default": "./dist/vite/plugin.js"
+    },
+    "./react-css": {
+      "types": "./dist/react-css.d.ts"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@types/node": "^24.10.10",
+    "typescript": "~5.9.3"
+  }
+}

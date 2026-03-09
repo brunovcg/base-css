@@ -1,0 +1,35 @@
+:root {
+  /* FONT-FAMILY */
+  --font_family-sans_serif: "Outfit", Arial, Helvetica, sans-serif;
+  --font_family-serif: Times, serif;
+  --font_family-monospace: "Cousine", monospace;
+
+  /* FONT-SIZE */
+  --font_size-3xl: 3rem;
+  --font_size-2xl: 2rem;
+  --font_size-xl: 1.5rem;
+  --font_size-lg: 1.3rem;
+  --font_size-md: 1rem;
+  --font_size-sm: 0.8rem;
+  --font_size-xs: 0.7rem;
+  --font_size-2xs: 0.6rem;
+
+  /* BORDER */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  --border-radius-circle: 50%;
+
+  /* SPACING */
+  --space-xs: 2px;
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 40px;
+  --space-3xl: 64px;
+
+  /* Z-INDEX */
+  --zindex-drawer: 10;
+  --zindex-toast: 9999;
+}

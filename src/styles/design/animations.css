@@ -1,0 +1,39 @@
+.animate-backdrop-fade-in {
+  animation: backdrop-fade-in 0.2s ease-out;
+}
+
+.animate-blink {
+  animation: blink infinite 2s linear;
+}
+
+.animate-dialog-slide-up {
+  animation: dialog-slide-up 0.3s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-indeterminate {
+  animation: indeterminate 1.5s linear infinite;
+}
+
+.animate-pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.animate-rotate {
+  animation: rotate infinite 1s linear;
+}
+
+.animate-rotate-slow {
+  animation: rotate infinite 3s linear;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out;
+}

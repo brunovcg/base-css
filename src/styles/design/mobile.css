@@ -1,0 +1,11 @@
+@media (--desktop) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (--mobile) {
+  .desktop-only {
+    display: none;
+  }
+}
