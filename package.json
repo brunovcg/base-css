@@ -9,7 +9,8 @@
     "register:css": "node scripts/generate-css-register.js",
     "build:css": "node scripts/build-css.js",
     "build:ts": "tsc -p tsconfig.build.json",
-    "build": "npm run register:css && npm run build:ts && npm run build:css"
+    "build": "npm run register:css && npm run build:ts && npm run build:css && cp src/react-css.d.ts dist/react-css.d.ts && cp -r src/styles dist/styles",
+    "prepare": "npm run build"
   },
   "exports": {
     ".": {
